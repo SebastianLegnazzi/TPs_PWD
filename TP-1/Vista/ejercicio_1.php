@@ -16,7 +16,8 @@
             <div class="valid-feedback">
                 Correcto!
             </div>
-            <input type="submit" class="btn btn-primary mt-2" name="boton_enviar" id="boton_enviar">
+            <input type="submit" class="btn btn-primary mt-2" name="boton_enviar" id="boton_enviar"><br>
+            <button onclick=" abrir('ejerciciosTP3')">Abrir</button>
         </div>
     </form>
     <script>
