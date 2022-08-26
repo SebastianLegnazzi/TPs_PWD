@@ -1,0 +1,24 @@
+.modal-signin{
+    height: 100vh;
+}
+
+.modal-content{
+    width: 80vw;
+    left: 10%;
+}
+
+.modal-header{
+    background:linear-gradient(to top, rgb(207, 207, 207), rgb(255, 255, 255));
+    justify-content:stretch;
+    padding: 0.3em;
+}
+
+.modal-title{
+    margin-left: 5px;
+    color: rgb(0, 127, 201);
+    font-size: 18px;
+}
+
+.icono_head{
+    color: rgb(0, 127, 201);
+}

@@ -1,0 +1,11 @@
+.modal-signin{
+    height: 100vh;
+}
+
+.btn-primary{
+    background-color: rgb(73, 180, 73);
+}
+
+.contraseña_usuario_iguales{
+    display: none;
+}
