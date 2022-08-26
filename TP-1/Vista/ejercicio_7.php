@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="..\..\bootstrap-5.2.0-dist\css\bootstrap.min.css" title="style" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist\css\bootstrap.min.css" title="style" />
 
     <link rel="stylesheet" type="text/css" href="css\tp1.css" title="style" />
     <script type="text/javascript">
