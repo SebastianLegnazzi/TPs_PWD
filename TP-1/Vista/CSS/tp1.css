@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/*Propiedades de los DIVS*/
+div {
+    border-width: 0px;
+    border-style: solid;
+}
+
+/*DIV ENCABEZADO*/
+.encabezado {
+    border-width: 0px;
+    height: 50px;
+    width: 99%;
+    margin: 1px;
+    text-align: center;
+    padding: 5px;
+    font-size: 100%;
+    font-weight: bold;
+}
+/*DIV ENCABEZADO FIN*/
+/*DIV BODY*/
+.cuerpo {
+    border-width: 0px;
+    margin: 1px;
+    padding: 1%;
+}
+/*DIV BODY FIN*/
+/*DIV PIE*/
+.pie {
+    border-width: 0px;
+    margin: 1px;
+    text-align: center;
+    padding: 10px;
+    font-size: 80%;
+}
+/*DIV PIE FIN*/
+
+.clear {
+    clear: both;
+}
+
+/*Cambio de colores*/
+.encabezado {
+    background-color: #153161;
+    color:#ffffff;
+}
+.cuerpo{
+    background-color: #f3f3f3;
+    color:#000000;
+}
+.pie {
+    background-color: #213141;
+    color:#ffffff;
+}
+
+
+
+/*Formulario*/
+.formulario{
+    width:97%;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    border-color: #ffffff;
+    background-color: #eeeeee;
+}
+
+
+/*BOTONES*/
+input.submit {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-size: 100%;
+
+}
+input.Reset{
+    background-color: #ee4747;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+input.txt1{
+    background-color: "";
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    font-size: 90%;
+}
+
+
+/*BOTONES FIN*/

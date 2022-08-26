@@ -1,31 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Ejercicio 7</title>
-    <script>
-        function validarInputVacio(){
-            let input_estudiante1 = document.getElementById("input_Estudiante1");
-            let input_estudiante2 = document.getElementById("input_Estudiante2");
-            let input_edad = document.getElementById("input_edad").value;
-            if(input_estudiante1.checked || input_estudiante2.checked && !isNaN(input_edad)){
-                datosValidos = true;
-            }else{
-                datosValidos = false;
-                alert("Los datos son incorrectos! porfavor reviselos nuevamente");
+    <link rel="stylesheet" type="text/css" href="..\..\bootstrap-5.2.0-dist\css\bootstrap.min.css" title="style" />
+
+    <link rel="stylesheet" type="text/css" href="css\tp1.css" title="style" />
+    <script type="text/javascript">
+        /**Valido con Javascript */
+        function validar() {
+            var campo1 = document.getElementById("edad_form");
+
+            var esValido = validarNumero(campo1);
+           
+            if (!esValido) {
+                alert("Debe Ingresar un numero.");
             }
-            return false;
+            return esValido;
+        }
+
+        function validarNumero(objCampo) {
+            var exito = false;
+            var numero = parseInt(objCampo.value);
+            if (isNaN(numero)) {
+                objCampo.style.borderColor = "red";
+            } else {
+                objCampo.style.borderColor = "";
+                exito = true;
+            }
+            return exito;
         }
     </script>
 </head>
+
 <body>
-    <form action="../Control/ejercicio_8.php" method="post">
-        <label>Edad </label><input type="text" name="input_edad" id="input_edad"><br>
-        <p>Es estudiante?</p>
-        <input type="radio" value="1" name="input_Estudiante" id="input_Estudiante1"><label for="input_Estudiante1">Si</label>
-        <input type="radio" value="2" name="input_Estudiante" id="input_Estudiante2"><label for="input_Estudiante2">No</label><br>
-        <input type="submit" name="boton_enviar" id="boton_enviar" onclick="return validarInputVacio()">
-        <input type="reset" name="boton_limpiar" id="boton_limpiar">
-    </form>
+    <div id="div1" class="encabezado">
+        <h2>TP 1 - EJ 8</h2>
+    </div>
+
+    <div id="div2" class="cuerpo">
+        <p>La empresa de Cine Cinem@s tiene establecidas diferentes tarifas para las entradas, en
+            función de la edad y de la condición de estudiante del cliente. Desea que sean los propios
+            clientes los que puedan calcular el valor de sus entradas a través de una página web. Si
+            es estudiante o menor de 12 años el precio es de $160, si es estudiante y mayor o igual
+            de 12 años el precio es de $180, en cualquier otro caso el precio es de $300. Diseñar un
+            formulario que solicite la edad y permita ingresar si se trata de un estudiante o no. Con
+            un botón enviar los datos a un script encargado de realizar el cálculo y visualizarlo.
+            Agregar un botón para limpiar el formulario y volver a consultar. </p><br />
+
+        <form id="form1" name="form1" method="POST" action="../Control/ejercicio_8res.php" onSubmit="return validar();" class="was-validated">
+            <div class="mb-3 mt-3">
+
+                <label for="edad_form" class="form-label">Edad:</label>
+                <input type="text" class="form-control" placeholder="" id="edad_form" name="edad_form" required>
+                <label for="estudia">Condicion del estudiante:</label>
+                <select id="estudia" name="estudia" class="form-control">
+                    <option value="NO">No es estudiante</option>
+                    <option value="SI">Es estudiante</option>
+                </select>
+
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">Por favor complete estos campos.</div>
+            </div>
+            <input type="submit" class="btn btn-primary" name="Submit" value="Aceptar">
+            <input type="reset" class="btn btn-danger" name="Reset" value="Limpiar" />
+        </form>
+
+    </div>
+
+    <div class="clear">
+        <div id="div3" class="pie">
+            Autor: Jorge Segura - FAI-231 <br />
+            Programacion Web Dinamica - Tecnicatura en Desarrollo Web. <br />
+            Universidad Nacional del Comahue. <br />
+        </div>
+
 </body>
+
 </html>
