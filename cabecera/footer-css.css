@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#pie{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+
+    position: absolute;
+    bottom: 0;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    animation: Animacion2 5s ease-in-out infinite alternate both;
+}
+#nombres{
+    color: white;
+    padding: 0.5em;
+    vertical-align: middle;
+}
+
+#nombres span{
+    font-size: 13px;
+}
+#info{
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+@keyframes Animacion2{
+    0%{
+        background-color: #080707;
+    }
+    50%{
+        background-color: rgb(31, 18, 31);
+    }
+    100%{
+        background-color: #250f24;
+    }
+    
+}
