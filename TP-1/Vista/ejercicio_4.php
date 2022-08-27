@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?> 
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 4</title>
@@ -69,5 +70,6 @@
     })
     })()
   </script>
-</body>
-</html>
+<?php
+    include_once "../../cabecera/footer-php.php"
+?>

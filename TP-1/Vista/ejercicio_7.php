@@ -1,5 +1,6 @@
-<html>
-
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?> 
 <head>
     <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist\css\bootstrap.min.css" title="style" />
 
@@ -34,9 +35,7 @@
 </head>
 
 <body>
-    <div id="div1" class="encabezado">
-        <h2>TP 1 - EJ 7</h2>
-    </div>
+   
 
     <div id="div2" class="cuerpo">
         <p>Crear una página con un formulario que contenga dos input de tipo text y un select. En
@@ -69,13 +68,6 @@
 
     </div>
 
-    <div class="clear">
-        <div id="div3" class="pie">
-            Autor: Jorge Segura - FAI-231 <br />
-            Programacion Web Dinamica - Tecnicatura en Desarrollo Web. <br />
-            Universidad Nacional del Comahue. <br />
-        </div>
-
-</body>
-
-</html>
+<?php
+    include_once "../../cabecera/footer-php.php"
+?>

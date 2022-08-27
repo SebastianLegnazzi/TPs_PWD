@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,5 +12,6 @@
         <label>Ingrese el archivo</label><input name="input_file" id="input_file" type="file"><br>
         <input type="submit" id="input_submit" name="input_submit">
     </form>
-</body>
-</html>
+    <?php
+    include_once "../../cabecera/footer-php.php"
+?>

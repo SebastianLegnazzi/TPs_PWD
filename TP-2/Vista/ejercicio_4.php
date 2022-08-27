@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -172,5 +173,7 @@
     })
     })()
   </script>
-</body>
-</html>
+
+<?php
+    include_once "../../cabecera/footer-php.php"
+?>

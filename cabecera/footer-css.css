@@ -1,8 +1,12 @@
 body{
     padding: 0px;
     margin: 0px;
+    position: relative;
+    padding-bottom: 80px;
 }
 #pie{
+
+    margin-top: 100%;
     height: 90px;
     width: 100%;
     background-color: black;

@@ -1,5 +1,6 @@
- <!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?> 
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 2</title>
@@ -45,5 +46,6 @@
             <input type="submit" name="boton_enviar" id="boton_enviar" class="btn btn-primary mt-2" onclick="return funcion_vacio(document.getElementsByClassName('input_dato'))">
         </div>
     </form>
-</body>
-</html>
+<?php
+    include_once "../../cabecera/footer-php.php"
+?>

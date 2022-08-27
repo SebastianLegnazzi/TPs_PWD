@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "../../cabecera/cabecera-php.php"
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejercicio 1</title>
+    <title>ejercicio 3</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/ejercicio_4.css">
     <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
@@ -176,5 +178,8 @@
     })
     })()
   </script>
-</body>
-</html>
+
+
+<?php
+    include_once "../../cabecera/footer-php.php"
+?>
