@@ -64,7 +64,7 @@ include_once "../../cabecera/cabecera-php.php"
                   Correcto!
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
               <label for="validationCustom02" class="form-label">Duracion</label>
               <input type="number" class="form-control" id="validationCustom02" name="input_duracion" max="999" min="1" required>
               <div class="invalid-feedback">

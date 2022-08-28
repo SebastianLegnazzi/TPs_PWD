@@ -16,6 +16,7 @@
 }
 .dropdownmenu a {
 	background: #30A6E6;
+	color: #002bb8;
 	display: block;
 	font: bold 12px/20px sans-serif;
 	padding: 10px 25px;
@@ -26,17 +27,28 @@
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
-    
-
-
-    
 }
+
+.dropdownmenu{
+	margin-right: 2em;
+}
+
+#titulo{
+ 	margin-left: 2em;
+}
+
+#head{
+	height: 10%;
+	width: 100%;
+}
+
 .dropdownmenu li:hover a {
 	background: #000000;
+	color: rgb(230, 230, 230);
 }
 
 /* SUB MENUS */
-#submenu1 {
+.submenu_tps {
 	left: 0;
 	opacity: 0;
 	position: absolute;
@@ -45,83 +57,29 @@
 	z-index: 1;
 }
 
-li:hover ul#submenu1 {
+li:hover ul.submenu_tps {
 	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	top: 40px;
 	visibility: visible;
 }
-#submenu1 li {
+.submenu_tps li {
 	float: none;
 	width: 150%;
 }
-#submenu1 a:hover {
-	background: #DF4B05;
+.submenu_tps li a:hover {
+	background: #2885db;
 }
-#submenu1 a {
+.submenu_tps li a {
 	background-color:#000000;
 }
 
-
-#submenu2 {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-	visibility: hidden;
-	z-index: 1;
-}
-
-li:hover ul#submenu2 {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
-}
-#submenu2 li {
-	float: none;
-	width: 150%;
-}
-#submenu2 a:hover {
-	background: #DF4B05;
-}
-#submenu2 a {
-	background-color:#000000;
-}
-
-
-
-#submenu3 {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-	visibility: hidden;
-	z-index: 1;
-}
-
-li:hover ul#submenu3 {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
-}
-#submenu3 li {
-	float: none;
-	width: 150%;
-}
-#submenu3 a:hover {
-	background: #DF4B05;
-}
-#submenu3 a {
-	background-color:#000000;
-}
-
-
-#footer{
+#head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     animation: Animacion 10s ease-in-out infinite alternate both;
     font-family: 'IBM Plex Mono', monospace;
-    
+    width: 100%;
 }
 
 .dropdownmenu{

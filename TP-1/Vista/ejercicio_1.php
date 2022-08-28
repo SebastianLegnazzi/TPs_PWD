@@ -19,7 +19,6 @@ include_once "../../cabecera/cabecera-php.php"
                 Correcto!
             </div>
             <input type="submit" class="btn btn-primary mt-2" name="boton_enviar" id="boton_enviar"><br>
-            <button onclick=" abrir('ejerciciosTP3')">Abrir</button>
         </div>
     </form>
     <script>
@@ -43,7 +42,6 @@ include_once "../../cabecera/cabecera-php.php"
     })
     })()
   </script>
-<link rel="stylesheet" href="">
 <?php
     include_once "../../cabecera/footer-php.php"
 ?>

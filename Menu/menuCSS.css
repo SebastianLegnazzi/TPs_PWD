@@ -28,7 +28,7 @@ h1{
 }
 
 .lista_desplegable{
-/*     display: none; */
+    display: none;
     list-style: none;
     padding: 0;
 }

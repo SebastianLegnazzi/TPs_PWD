@@ -8,7 +8,7 @@ include_once "../../cabecera/cabecera-php.php"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio 3</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/ejercicio_4.css">
+    <link rel="stylesheet" href="CSS/ejercicio_3.css">
     <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -141,16 +141,16 @@ include_once "../../cabecera/cabecera-php.php"
                 </div>
             </div>
           </div>
-          <div class="mb-3">
+          <div>
             <label for="formFile" class="form-label">Ingrese una foto de la pelicula</label>
             <input class="form-control" type="file" id="input_imagen" name="input_imagen" required>
           </div>
-          <div class="mb-3">
+          <div >
             <label for="exampleFormControlTextarea1" class="form-label">Sinopsis</label>
-            <textarea class="form-control" id="input_sinopsis" rows="5" name="input_sinopsis" required></textarea>
+            <textarea class="form-control" id="input_sinopsis" rows="1" name="input_sinopsis" required></textarea>
           </div>
       </div>
-      <div class="modal-footer border-top-0">
+      <div class="modal-footer border-top-0 pb-2">
         <button class="btn btn-primary btn-lg w-30 h-30 mx-0 me-3" type="submit">Enviar</button>
         <button type="reset" class="btn btn-lg btn-light w-30 mx-0">Borrar</button>
       </div>
