@@ -36,13 +36,13 @@ include_once "../../cabecera/cabecera-php.php"
     </script>
 </head>
 <body>
-    <form action="../Control/ejercicio_2.php" class="needs-validation row g-3" novalidate method="get">
+    <form action="ejercicio_2_Respuesta.php" class="needs-validation row g-3" novalidate method="get">
         <div class="col-md-4 m-4">
-            <label>Hora de cursada del Lunes: </label><input type="text" name="lunes" id="lunes" class="input_dato form-control" required><br>
-            <label>Hora de cursada del Martes: </label><input type="text" name="martes" id="martes" class="input_dato form-control" required><br>
-            <label>Hora de cursada del Miercoles: </label><input type="text" name="miercoles" id="miercoles" class="input_dato form-control" required><br>
-            <label>Hora de cursada del Jueves: </label><input type="text" name="jueves" id="jueves" class="input_dato form-control" required><br>
-            <label>Hora de cursada del Vienres: </label><input type="text" name="viernes" id="viernes" class="input_dato form-control" required><br>
+            <label>Hora de cursada del Lunes: </label><input type="number" name="lunes" id="lunes" class="input_dato form-control" required><br>
+            <label>Hora de cursada del Martes: </label><input type="number" name="martes" id="martes" class="input_dato form-control" required><br>
+            <label>Hora de cursada del Miercoles: </label><input type="number" name="miercoles" id="miercoles" class="input_dato form-control" required><br>
+            <label>Hora de cursada del Jueves: </label><input type="number" name="jueves" id="jueves" class="input_dato form-control" required><br>
+            <label>Hora de cursada del Vienres: </label><input type="number" name="viernes" id="viernes" class="input_dato form-control" required><br>
             <input type="submit" name="boton_enviar" id="boton_enviar" class="btn btn-primary mt-2" onclick="return funcion_vacio(document.getElementsByClassName('input_dato'))">
         </div>
     </form>

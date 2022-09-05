@@ -8,7 +8,7 @@ include_once "../../cabecera/cabecera-php.php"
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <form action="../Control/ejercicio_6.php" class="needs-validation col-md-4 m-4" novalidate method="post">
+    <form action="ejercicio_6_Respuesta.php" class="needs-validation col-md-4 m-4" novalidate method="post">
         <div>
             <label>Nombre: </label><input type="text" name="input_nombre" id="input_nombre" class="form-control" required>
             <div class="invalid-feedback">
@@ -46,7 +46,7 @@ include_once "../../cabecera/cabecera-php.php"
             </div>
         </div>
         <div>
-            <p>Estudios:</p>
+            <strong>Estudios:</strong><br>
             <input type="radio" name="input_estudios" id="input_estudios1" value="No tiene estudios" class="form-check-input" required><label for="input_estudios1" class="form-check-label">No tiene estudios</label>
             <input type="radio" name="input_estudios" id="input_estudios2" value="Estudios Primarios" class="form-check-input" required><label for="input_estudios2" class="form-check-label">Estudios Primarios</label>
             <input type="radio" name="input_estudios" id="input_estudios3" value="Estudios Secundarios" class="form-check-input" required><label for="input_estudios3" class="form-check-label">Estudios Secundarios</label>
@@ -58,7 +58,7 @@ include_once "../../cabecera/cabecera-php.php"
             </div>
         </div>
         <div>
-            <p>Sexo:</p>
+            <strong>Sexo:</strong><br>
             <input type="radio" name="input_sexo" id="input_sexo1" value="Femenino" class="form-check-input" required><label for="input_sexo1" class="form-check-label">Femenino</label>
             <input type="radio" name="input_sexo" id="input_sexo2" value="Masculino" class="form-check-input" required><label for="input_sexo2" class="form-check-label">Masculino</label>
             <input type="radio" name="input_sexo" id="input_sexo3" value="Otro" class="form-check-input" required><label for="input_sexo3" class="form-check-label">Otro</label>
@@ -70,7 +70,7 @@ include_once "../../cabecera/cabecera-php.php"
             </div>
         </div>
         <div>
-            <p>Deporte:</p>
+            <strong>Deporte:</strong><br>
             <input type="checkbox" name="input_deporte[]" id="input_deporte1" value="Futbol" class="form-check-input"><label for="input_deporte1" class="form-check-label">Futbol</label>
             <input type="checkbox" name="input_deporte[]" id="input_deporte2" value="Basket" class="form-check-input"><label for="input_deporte2" class="form-check-label">Basket</label>
             <input type="checkbox" name="input_deporte[]" id="input_deporte3" value="Tennis" class="form-check-input"><label for="input_deporte3" class="form-check-label">Tennis</label>

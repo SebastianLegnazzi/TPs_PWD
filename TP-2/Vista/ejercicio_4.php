@@ -20,7 +20,7 @@ include_once "../../cabecera/cabecera-php.php"
         </svg><h5 class="modal-title">Cinem@as</h5>
       </div>
       <div class="modal-body py-0">
-        <form class="row g-3 needs-validation" method="post" action="../Control/ejercicio_4.php" novalidate>
+        <form class="row g-3 needs-validation" method="post" action="ejercicio_4_respuesta.php" novalidate>
           <div class="col">
             <div class="col-md-10">
               <label for="validationCustom01" class="form-label">Titulo</label>

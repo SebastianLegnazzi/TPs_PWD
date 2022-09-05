@@ -9,7 +9,7 @@ include_once "../../cabecera/cabecera-php.php"
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <form action="../Control/ejercicio_3.php" class="needs-validation" novalidate method="get">
+    <form action="ejercicio_3_Respuesta.php" class="needs-validation" novalidate method="get">
         <div id="input_conteiner">
             <div>
                 <label>Nombre: </label><input type="text" name="input_nombre" id="input_nombre" class="form-control" required>  
@@ -50,27 +50,7 @@ include_once "../../cabecera/cabecera-php.php"
             <input type="submit" name="boton_enviar" id="boton_enviar" class="btn btn-primary mt-2">
         </div>
     </form>
-    <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-    'use strict'
-
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation')
-
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-        if (!form.checkValidity() || !contraseñaIgUsuario()) {
-            event.preventDefault()
-            event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-        }, false)
-    })
-    })()
-  </script>
+    <script src="js/validarCamposVacios.js"></script>
 <?php
     include_once "../../cabecera/footer-php.php"
 ?>

@@ -1,18 +1,20 @@
 <?php
 
-if($_GET){
-    $nombre = $_GET["input_nombre"];
-    $apellido = $_GET["input_apellido"];
-    $edad = $_GET["input_edad"];
-    $direccion = $_GET["input_direccion"];
-    if($nombre != null && $apellido != null && $edad  != null && $direccion != null){
-        echo "Hola, yo soy $nombre , $apellido tengo $edad años y vivo en $direccion";
-    }else{
-        echo "Faltan rellenar todos los datos!";
+class tp1_Ej3{
+    public function saludo($metodo){
+        $saludo = "";
+        $nombre = $metodo["input_nombre"];
+        $apellido = $metodo["input_apellido"];
+        $edad = $metodo["input_edad"];
+        $direccion = $metodo["input_direccion"];
+        if($nombre != null && $apellido != null && $edad  != null && $direccion != null){
+            $saludo = "Hola, yo soy $nombre , $apellido tengo $edad años y vivo en $direccion";
+        }else{
+            $saludo = "Faltan rellenar todos los datos!";
+        }
+        return $saludo;
     }
-}else{
-    echo "No anduvo el programa, intentar nuevamente!";
+
 }
-echo "<br/><button><a href='../Vista/ejercicio_3.php'>Volver</a></button>"
 
 ?>
