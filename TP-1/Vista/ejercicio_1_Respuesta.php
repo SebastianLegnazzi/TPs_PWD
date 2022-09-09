@@ -1,12 +1,13 @@
 
 <?php
 include_once "../../cabecera/cabecera-php.php";
-include_once "../Control/myController.php";
+include_once "../Utiles/herramienta.php";
 include_once "../Control/ejercicio_1.php";
 
 $metodo = data_submited();
 $objControlador = new tp1_Ej1;
 $numero = $objControlador->verNumero($metodo["input_numero"]);
+    include_once "../../cabecera/footer-php.php"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +38,3 @@ $numero = $objControlador->verNumero($metodo["input_numero"]);
         </div>
     </body>
 </html>
-<?php
-    include_once "../../cabecera/footer-php.php"
-?>

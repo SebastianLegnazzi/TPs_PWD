@@ -11,7 +11,7 @@ class tp2_Ej3{
         $usuarioCorrecto = false;
         $contraseñaCorrecta = false;
         $cuentaExiste = false;
-        foreach ($cuentas as $cuenta => $valor){
+        while(!$usuarioCorrecto && !$contraseñaCorrecta && $i < count($cuentas)){
             if(strtoupper($usuario) == strtoupper($valor)){
                 $usuarioCorrecto = true;
             }else if($contraseña == $valor){

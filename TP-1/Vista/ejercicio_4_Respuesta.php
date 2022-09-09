@@ -1,7 +1,7 @@
 
 <?php
 include_once "../../cabecera/cabecera-php.php";
-include_once "../Control/myController.php";
+include_once "../Utiles/herramienta.php";
 include_once "../Control/ejercicio_4.php";
 
 $metodo = data_submited();
