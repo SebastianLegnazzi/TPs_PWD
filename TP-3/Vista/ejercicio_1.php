@@ -8,7 +8,7 @@ include_once "../../cabecera/cabecera-php.php"
     <link rel="stylesheet" href="CSS/ejercicio_3.css">
 </head>
 <body>
-    <form action="../Control/ejercicio_1.php" method="post" enctype="multipart/form-data">
+    <form action="ejercicio_1_Respuesta.php" method="post" enctype="multipart/form-data">
         <label>Ingrese el archivo de tipo "DOC" o "PDF"</label><br>
         <input name="input_file" class="mt-2" id="input_file" type="file"><br>
         <input type="submit" class="btn btn-primary mt-2" id="input_submit" name="input_submit">

@@ -11,7 +11,7 @@ include_once "../../cabecera/cabecera-php.php"
     <title>Ejercicio 2</title>
 </head>
 <body>
-    <form action="../Control/ejercicio_2.php" method="post" enctype="multipart/form-data">
+    <form action="ejercicio_2_Respuesta.php" method="post" enctype="multipart/form-data">
         <label>Ingrese el archivo de tipo "txt plano"</label><br>
         <input name="input_file" class="mt-2" id="input_file" type="file"><br>
         <input type="submit" class="btn btn-primary mt-2" id="input_submit" name="input_submit">

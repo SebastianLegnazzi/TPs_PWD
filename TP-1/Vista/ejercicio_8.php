@@ -44,7 +44,7 @@ include_once "../../cabecera/cabecera-php.php"
             un botón enviar los datos a un script encargado de realizar el cálculo y visualizarlo.
             Agregar un botón para limpiar el formulario y volver a consultar. </p><br />
 
-        <form id="form1" name="form1" method="POST" action="../Control/ejercicio_8res.php" onSubmit="return validar();" class="was-validated">
+        <form id="form1" name="form1" method="POST" action="ejercicio_8_respuesta.php" onSubmit="return validar();" class="was-validated">
             <div class="mb-3 mt-3">
 
                 <label for="edad_form" class="form-label">Edad:</label>

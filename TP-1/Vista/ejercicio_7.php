@@ -44,7 +44,7 @@ include_once "../../cabecera/cabecera-php.php"
             uno de los operandos y el resultado obtenido de resolver la operación. Ejemplo del
             formulario: </p><br />
 
-        <form id="form1" name="form1" method="POST" action="../Control/ejercicio_7res.php" onSubmit="return validar();" class="was-validated">
+        <form id="form1" name="form1" method="POST" action="ejercicio_7_respuesta.php" onSubmit="return validar();" class="was-validated">
             <div class="mb-3 mt-3">
                 
                 <input type="text" class="form-control" placeholder="" id="op1_form" name="op1_form" required>
