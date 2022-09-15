@@ -5,7 +5,7 @@ class TP3_EJ01
     {
         $mensaje="";
 
-        $dir = $_SERVER["DOCUMENT_ROOT"] . "/TP-3/Archivos/";
+        $dir = "../Archivos/";
         if ($_FILES["input_file"]["error"] <= 0) {
             $nombre = $_FILES["input_file"]["name"];
             $tipo = $_FILES["input_file"]["type"];

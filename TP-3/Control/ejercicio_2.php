@@ -5,7 +5,7 @@ class TP3_EJ02
     function controlTP1EJ02()
     {
         $mensaje = "";
-        $dir = $_SERVER["DOCUMENT_ROOT"] . "/TP-3/Archivos/";
+        $dir = "../Archivos/";
         if ($_FILES["input_file"]["error"] <= 0) {
             $tipo = $_FILES["input_file"]["type"];
             if ((str_contains($tipo, "text/plain"))) {

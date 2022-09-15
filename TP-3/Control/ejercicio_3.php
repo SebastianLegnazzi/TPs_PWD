@@ -23,7 +23,7 @@ class TP3_EJ03
   {
     $exito = false;
 
-    $dir = $_SERVER["DOCUMENT_ROOT"] . "/TP-3/Archivos/";
+    $dir = "../Archivos/";
     if (isset($_POST)) {
       if ($_FILES["input_imagen"]["error"] <= 0) {
         $tipo = $_FILES["input_imagen"]["type"];
