@@ -1,8 +1,7 @@
 <?php
-    include "../configuracion.php";
+    include_once("Menu/Cabecera.php");
     $objAuto = new c_auto();
     $datosAuto = $objAuto->buscar(NULL);
-    include_once("Menu/Cabecera.php");
 ?>
 
 <!DOCTYPE html>

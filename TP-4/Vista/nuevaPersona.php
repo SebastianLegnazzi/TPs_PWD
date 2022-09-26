@@ -1,5 +1,4 @@
 <?php
-include "../configuracion.php";
 include_once("Menu/Cabecera.php");
 $anio = getdate()['year'];
 if(9 >= getdate()['mon']){

@@ -1,5 +1,4 @@
 <?php
-include_once '../configuracion.php';
 include_once("Menu/Cabecera.php");
 $objPersona = new c_persona();
 $objAuto = new c_auto();

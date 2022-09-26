@@ -1,8 +1,7 @@
 <?php
-include "../configuracion.php";
+include_once("Menu/Cabecera.php");
 $datos = data_submitted();
 $objPersona = new c_persona();
-include_once("Menu/Cabecera.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

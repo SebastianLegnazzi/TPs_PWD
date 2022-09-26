@@ -1,9 +1,9 @@
-# Trabajo Practico 3 - Programacion Web Dinamica
+# Trabajo Practico 4 - Programacion Web Dinamica
 ## Datos del Proyecto
-- **DESCRIPCION:** Crear formularios mas complejos con validacion boostrap y con JS ademas de que interactuen con su respectivo "control" devolviendo la vista
-- **REQUERIMIENTOS:** [Requerimentos](https://drive.google.com/file/d/14LU6ahwT8L_3Z_Hmsvis31eD2TmETdVg/view?usp=sharing),
+- **DESCRIPCION:** Crear una una pagina que muestre detalles de autos y sus correspondientes dueños. Utilizando php, html, css, js, boostrap y MySQL
+- **REQUERIMIENTOS:** [Requerimentos](https://drive.google.com/file/d/1uWCGKKI8eDf1pWLSTmPL4Ko-SAgnsPsW/view?usp=sharing),
 - **PROFESORES:** Sanchez Viviana, Pino Maria Laura, Carrasco Claudia
-- **NOTA:** white_check_mark: Aprobado :white_check_mark:
+- **NOTA:** :arrows_counterclockwise: En proceso :arrows_counterclockwise:
 ## Datos Institucionales
 - **NOMBRE Y APELLIDO:** Sebastian Legnazzi
 - **LEGAJO:** FAI-3152

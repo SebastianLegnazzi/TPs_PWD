@@ -65,6 +65,20 @@
                 </ul>
             </div>
         </div>
+        <div class="div_tp4">
+            <div class="head_menu">
+                <h3>Trabajo Practico 4</h3>
+            </div>
+            <div class="botones_menu">
+                <button class="boton_abrir boton" onclick=" abrir('ejerciciosTP4')">Abrir</button>
+                <button class="boton_cerrar boton" onclick=" cerrar('ejerciciosTP4')">Cerrar</button>
+            </div>
+            <div class="lista_menu">
+                <ul class="lista_desplegable" id="ejerciciosTP4">
+                    <li><a href="../TP-4/Vista/verAutos.php">Abrir TP</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>

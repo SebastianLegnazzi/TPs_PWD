@@ -1,9 +1,8 @@
 <?php
-    include "../configuracion.php";
+    include_once("Menu/Cabecera.php");
     $metodo = data_submitted();
     $objAuto = new c_auto();
     $datosAuto = $objAuto->buscar($metodo);
-    include_once("Menu/Cabecera.php")
 ?>
 
 <!DOCTYPE html>

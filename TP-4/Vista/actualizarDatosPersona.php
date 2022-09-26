@@ -1,9 +1,8 @@
 <?php
-include "../configuracion.php";
+include_once("Menu/Cabecera.php");
 $metodo = data_submitted();
 $objPersona = new c_persona();
 $datosPersona = $objPersona->buscar($metodo);
-include_once("Menu/Cabecera.php")
 ?>
 
 <!DOCTYPE html>
