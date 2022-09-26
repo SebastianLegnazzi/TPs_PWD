@@ -1,8 +1,9 @@
-# Trabajos Practicos - Programacion Web Dinamica
+# Trabajo Practico 4 - Programacion Web Dinamica
 ## Datos del Proyecto
-- **DESCRIPCION:** Trabajos practicos de la materia "Programacion WEB Dinámica"
+- **DESCRIPCION:** Crear formularios simples con validacion boostrap y que interactuen con su respectivo "control"
+- **REQUERIMIENTOS:** [Requerimentos](https://drive.google.com/file/d/14GzNYiq8QO-0lZcTmz_2S5saHRnSXO6o/view?usp=sharing),
 - **PROFESORES:** Sanchez Viviana, Pino Maria Laura, Carrasco Claudia
-- **NOTA:** white_check_mark: Aprobado :white_check_mark:
+- **NOTA:** :white_check_mark: Aprobado :white_check_mark:
 ## Datos Institucionales
 - **NOMBRE Y APELLIDO:** Sebastian Legnazzi
 - **LEGAJO:** FAI-3152
