@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+.quitar_margin_padding{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+
+    padding: 0px;
+}
+.my-4{
+    margin-bottom: 0px;
+}
+
+
+
+.logitos{
+    
+    height: 40px;
+    width: 40px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+#footer{
+    margin-bottom: 0px;
+    
+    background-color: rgb(151, 151, 151);
+    
+}
+
+#fai_logo{
+    background-image: url("logos/fai_logo.png");
+    background-position: center;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+
+footer li{
+    height: 50px;
+}
+/* header */
+#header{
+    background-color: rgb(151, 151, 151);
+}
+
+
+/*      EVENTOS  */
+/* francisco */
+/*hola? */
+#francisco_l{
+    height: 40px;
+    width: 40px;
+    background-image: url("logos/francisco.png");
+    background-position: center;
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    
+    
+}
+
+#francisco:hover a{
+    background-color: grey;
+    transition: 0.5s;
+    
+}
+
+#francisco:hover span{
+    color: black;
+    font-weight: 400;
+}
+
+
+/* juan */
+#juan:hover a{
+    transition: 0.5s;
+    background-color: rgb(182, 149, 192);
+}
+#juan:hover span{
+    color: black;
+    font-weight: 400;
+}
+#juan_l{
+    background-image: url("logos/juan.png");
+    background-size: contain;
+    background-position: center;
+}
+/* jorge */
+
+#jorge:hover a{
+    transition: 0.5s;
+    background-color: rgb(160, 15, 39);
+}
+#jorge:hover span{
+    color: black;
+    font-weight: 400;
+}
+
+#jorge_l{
+    background-image: url("logos/jorge.png");
+    background-position: center;
+    background-size: contain;
+}
+
+/* legnazzi */ 
+#legnazzi:hover a{
+    transition: 0.5s;
+    background-color: #ff9800;
+}
+
+#legnazzi:hover span{
+    color: black;
+    font-weight: 400;
+}
+
+#legnazzi_l{
+    
+    background-image: url("logos/seba.png");
+    background-position: center;
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+
+    scale: 1.2;
+}
