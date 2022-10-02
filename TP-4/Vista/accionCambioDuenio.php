@@ -25,7 +25,7 @@
                 <div class="mb-3">
                     <?php 
                     if ($datosAuto != null) {
-                        if(count($datosPersona) == 1){
+                        if($datosPersona != null){
                             $datosModificados = ["Patente" => $metodo["Patente"], "DniDuenio" => $metodo["DniDuenio"], "Marca" => $datosAuto[0]->getMarca(), "Modelo" => $datosAuto[0]->getModelo()];
                             if($objAuto->modificacion($datosModificados)){
                                 echo '<p class="lead text-success"> Los datos se modificaron correctamente!</p>';
