@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Principal</title>
-    <link rel="stylesheet" href="menuCSS.css">
-    <script src="menu.js"></script>
+    <link rel="stylesheet" href="js-css_Menu/menuCSS.css">
+    <script src="js-css_Menu/menu.js"></script>
 </head>
 <body>
     <div class="head_principal">
@@ -23,14 +23,14 @@
             </div>
             <div class="lista_menu">
                 <ul class="lista_desplegable" id="ejerciciosTP1">
-                    <li><a href="../TP-1/Vista/ejercicio_1.php">Ejercicio 1</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_2.php">Ejercicio 2</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_3.php">Ejercicio 3</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_4.php">Ejercicio 4</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_5.php">Ejercicio 5</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_6.php">Ejercicio 6</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_7.php">Ejercicio 7</a></li>
-                    <li><a href="../TP-1/Vista/ejercicio_8.php">Ejercicio 8</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_1.php">Ejercicio 1</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_2.php">Ejercicio 2</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_3.php">Ejercicio 3</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_4.php">Ejercicio 4</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_5.php">Ejercicio 5</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_6.php">Ejercicio 6</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_7.php">Ejercicio 7</a></li>
+                    <li><a href="TP-1/Vista/ejercicio_8.php">Ejercicio 8</a></li>
                 </ul>
             </div>
         </div>
@@ -44,8 +44,8 @@
             </div>
             <div class="lista_menu">
                 <ul class="lista_desplegable" id="ejerciciosTP2">
-                    <li><a href="../TP-2/Vista/ejercicio_3a,b,c.php">Ejercicio 3</a></li>
-                    <li><a href="../TP-2/Vista/ejercicio_4.php">Ejercicio 4</a></li>
+                    <li><a href="TP-2/Vista/ejercicio_3a,b,c.php">Ejercicio 3</a></li>
+                    <li><a href="TP-2/Vista/ejercicio_4.php">Ejercicio 4</a></li>
                 </ul>
             </div>
         </div>
@@ -59,9 +59,9 @@
             </div>
             <div class="lista_menu">
                 <ul class="lista_desplegable" id="ejerciciosTP3">
-                    <li><a href="../TP-3/Vista/ejercicio_1.php">Ejercicio 1</a></li>
-                    <li><a href="../TP-3/Vista/ejercicio_2.php">Ejercicio 2</a></li>
-                    <li><a href="../TP-3/Vista/ejercicio_3.php">Ejercicio 3</a></li>
+                    <li><a href="TP-3/Vista/ejercicio_1.php">Ejercicio 1</a></li>
+                    <li><a href="TP-3/Vista/ejercicio_2.php">Ejercicio 2</a></li>
+                    <li><a href="TP-3/Vista/ejercicio_3.php">Ejercicio 3</a></li>
                 </ul>
             </div>
         </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="lista_menu">
                 <ul class="lista_desplegable" id="ejerciciosTP4">
-                    <li><a href="../TP-4/Vista/verAutos.php">Abrir TP</a></li>
+                    <li><a href="TP-4/Vista/verAutos.php">Abrir TP</a></li>
                 </ul>
             </div>
         </div>

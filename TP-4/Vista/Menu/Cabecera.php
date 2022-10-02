@@ -1,22 +1,23 @@
 <?php
 include "../configuracion.php";
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Head</title>
-  <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
-  <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css_header_footer.css">
+  <title>Trabajo Practico 4</title>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/css_header_footer.css">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-xl navbar-light barra_navegacion" aria-label="Third navbar example"  id="header">
+  <nav class="navbar navbar-expand-xl navbar-light barra_navegacion" aria-label="Third navbar example" id="header">
     <div class="container-fluid">
-    <span class="navbar-brand" style="font-family: 'Chivo', sans-serif;">Trabajo Practico 4</span>
+      <span class="navbar-brand" style="font-family: 'Chivo', sans-serif;">Trabajo Practico 4</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -51,5 +52,3 @@ include "../configuracion.php";
       </div>
     </div>
   </nav>
-</body>
-</html>
