@@ -1,4 +1,4 @@
-# Trabajo Practico 4 - Programacion Web Dinamica
+# Trabajo Practico 2 - Programacion Web Dinamica
 ## Datos del Proyecto
 - **DESCRIPCION:** Crear una una pagina que muestre detalles de autos y sus correspondientes dueños. Utilizando php, html, css, js, boostrap y MySQL
 - **REQUERIMIENTOS:** [Requerimentos](https://drive.google.com/file/d/1uWCGKKI8eDf1pWLSTmPL4Ko-SAgnsPsW/view?usp=sharing),

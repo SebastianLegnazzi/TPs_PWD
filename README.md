@@ -2,7 +2,6 @@
 ## Datos del Proyecto
 - **DESCRIPCION:** Trabajos practicos de la materia "Programacion WEB Dinámica"
 - **PROFESORES:** Sanchez Viviana, Pino Maria Laura, Carrasco Claudia
-- **NOTA:** white_check_mark: Aprobado :white_check_mark:
 ## Datos Institucionales
 - **NOMBRE Y APELLIDO:** Sebastian Legnazzi
 - **LEGAJO:** FAI-3152
