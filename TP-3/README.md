@@ -3,7 +3,7 @@
 - **DESCRIPCION:** Crear una una pagina que muestre detalles de autos y sus correspondientes dueños. Utilizando php, html, css, js, boostrap y MySQL
 - **REQUERIMIENTOS:** [Requerimentos](https://drive.google.com/file/d/1uWCGKKI8eDf1pWLSTmPL4Ko-SAgnsPsW/view?usp=sharing),
 - **PROFESORES:** Sanchez Viviana, Pino Maria Laura, Carrasco Claudia
-- **NOTA:** :arrows_counterclockwise: En proceso :arrows_counterclockwise:
+- **NOTA:** :white_check_mark: Aprobado :white_check_mark:
 ## Datos Institucionales
 - **NOMBRE Y APELLIDO:** Sebastian Legnazzi
 - **LEGAJO:** FAI-3152
